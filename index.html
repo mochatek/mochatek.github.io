@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glyphy</title>
+    <script src="./src/phaser.min.js"></script>
+    <script type="module" src="./src/main.js"></script>
+    <style>
+        body {
+            background-color: #191c24;
+        }
+        div {
+            padding: 0%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        table {
+            font-family: 'Tahoma';
+            padding: 5px;
+            background-color:black;
+            color: white;
+            width: 400px;
+            border-radius: 5px;
+        }
+        p {
+            width: 400px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            background-color: #f7c8c8;
+            color: red;
+            border-radius: 5px;
+            border: 1px solid red;
+        }
+        a {
+            background-color: red;
+            color:white;
+            padding: 2px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <img src="assets/title.png" alt="Title Banner">
+    </div>
+    <br>
+    <br>
+    <div id="game-container"></div>
+    <br>
+    <div id="instructions">
+        <p align="center">Tap to jump.<br>
+            Objective is to land on top of enemy.<br>
+            Game will restart once you loose all three lives.<br><br>
+            © <a href="https://github.com/mochatek">. MochaTek .</a>&nbsp;(2020)
+        </p>
+    </div>
+    <table align="center" id="highScore">
+        <tr><th  align="center">Your Best : 0</th></tr>
+    </table>
+</body>
+</html>
