@@ -1,10 +1,10 @@
-# mochatek.github.io
+# Glyphy
 
 HTML5 game developed using [Phaser.js](https://phaser.io/phaser3)
 
 Play the game: [Glyphy](https://mochatek.github.io/)
 
-# Game Instructions
+## Game Instructions
 - Tap to jump.
 - If you land on top of enemy, score increases by 1.
 - You have a total of 3 lives.
